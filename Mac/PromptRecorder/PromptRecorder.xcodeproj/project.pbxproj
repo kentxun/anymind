@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8B7C6D5E4F30123456789AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C6D5E4F30123456789ABC /* Assets.xcassets */; };
+		FEAC00EB6D3844D5AE8617AD /* PromptRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FD4BB90BCF49A198FEB1F4 /* PromptRecorderApp.swift */; };
+		B27F8A341265459F990B9746 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3C2DEC3AEE4DB2AD92F6AE /* ContentView.swift */; };
+		0DA40BA886CE49F3942C6A44 /* RecordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4588B63878A4A948F3CC376 /* RecordStore.swift */; };
+		FC7A460E96464E1281BBB572 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1396F56D9B8B42B7922C47C9 /* Models.swift */; };
+		E9530AF79AF74690874AE058 /* DateCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C95E479B3F46DF9E2A53E6 /* DateCodec.swift */; };
+		4BBECF2547F6400FBFA80362 /* SyncStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A8C51B8214C9C8D2C4F6C /* SyncStatus.swift */; };
+		278D340BDF3D494E84DFC1F9 /* TagParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C8EBC9E4CA44638C768CFE /* TagParser.swift */; };
+		BECAFFE8CC374F219AC6B91D /* AppPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC5154CE9749E2AA2E5D1F /* AppPaths.swift */; };
+		0E9E047687B343FDB5A06EDC /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6C9F50588548D9AD20914C /* SQLite.swift */; };
+		D47A0C55CF57417180A8C12E /* PromptDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC3E7647C84C5FA11E6E11 /* PromptDatabase.swift */; };
+		B52927F276924238BA6DA51B /* RecordRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AA3327E11340ECA9EDBCC4 /* RecordRowView.swift */; };
+		95C9DA8D64C748B6A4F0A5B0 /* TagChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4962CE3A6248F396A6CB6F /* TagChipView.swift */; };
+		3C598AD412AA4F86889E8CAB /* RecordEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C2D69AAF05436EB06AFC3F /* RecordEditorView.swift */; };
+		F4173320399D4DCAB5D7D080 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330D6DEAEDEA422FBE644F38 /* SettingsView.swift */; };
+		6BDE637962814BAEB1DCB539 /* SyncClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CBF40E447544239915DA7A /* SyncClient.swift */; };
+		CFB540DF096242D6B6575ADE /* SyncModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8E6D4ECF424A72BFF6B690 /* SyncModels.swift */; };
+		BE4F7B8CDD2A4256B0170F9E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F10EBC94F0C648548F4F3C94 /* libsqlite3.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AC05AA6340D44A3AFA6200B /* AnyMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = AnyMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C6D5E4F30123456789ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7BAA50C31DD483D94C090A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FD4BB90BCF49A198FEB1F4 /* PromptRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptRecorderApp.swift; sourceTree = "<group>"; };
+		BC3C2DEC3AEE4DB2AD92F6AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4588B63878A4A948F3CC376 /* RecordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordStore.swift; sourceTree = "<group>"; };
+		1396F56D9B8B42B7922C47C9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E4C95E479B3F46DF9E2A53E6 /* DateCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCodec.swift; sourceTree = "<group>"; };
+		2F0A8C51B8214C9C8D2C4F6C /* SyncStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncStatus.swift; sourceTree = "<group>"; };
+		15C8EBC9E4CA44638C768CFE /* TagParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagParser.swift; sourceTree = "<group>"; };
+		17FC5154CE9749E2AA2E5D1F /* AppPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPaths.swift; sourceTree = "<group>"; };
+		DA6C9F50588548D9AD20914C /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
+		5BEC3E7647C84C5FA11E6E11 /* PromptDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptDatabase.swift; sourceTree = "<group>"; };
+		B0AA3327E11340ECA9EDBCC4 /* RecordRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRowView.swift; sourceTree = "<group>"; };
+		6F4962CE3A6248F396A6CB6F /* TagChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagChipView.swift; sourceTree = "<group>"; };
+		99C2D69AAF05436EB06AFC3F /* RecordEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordEditorView.swift; sourceTree = "<group>"; };
+		330D6DEAEDEA422FBE644F38 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		15CBF40E447544239915DA7A /* SyncClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncClient.swift; sourceTree = "<group>"; };
+		AB8E6D4ECF424A72BFF6B690 /* SyncModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncModels.swift; sourceTree = "<group>"; };
+		F10EBC94F0C648548F4F3C94 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.text-based-dylib-definition; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98E2609C16BB47B8BE76DC67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4F7B8CDD2A4256B0170F9E /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCAF11209E714E028D412BCF = {
+			isa = PBXGroup;
+			children = (
+				00604A70B62F4B528B17DD83 /* PromptRecorder */,
+				8C5DBE271FA34CC4B14C149E /* Products */,
+				63EB33665F914740B6EBE775 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00604A70B62F4B528B17DD83 /* PromptRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				03C0B4B06D5E464486771CB5 /* Database */,
+				96CC1347A58F4F14A2D6E673 /* Helpers */,
+				A9B8527511874440BCBECE53 /* Sync */,
+				5DEE92AFC98642AABCF8948C /* Views */,
+				B7C6D5E4F30123456789ABC /* Assets.xcassets */,
+				48FD4BB90BCF49A198FEB1F4 /* PromptRecorderApp.swift */,
+				BC3C2DEC3AEE4DB2AD92F6AE /* ContentView.swift */,
+				C4588B63878A4A948F3CC376 /* RecordStore.swift */,
+				1396F56D9B8B42B7922C47C9 /* Models.swift */,
+				E7BAA50C31DD483D94C090A0 /* Info.plist */,
+			);
+			path = PromptRecorder;
+			sourceTree = "<group>";
+		};
+		A9B8527511874440BCBECE53 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				15CBF40E447544239915DA7A /* SyncClient.swift */,
+				AB8E6D4ECF424A72BFF6B690 /* SyncModels.swift */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		03C0B4B06D5E464486771CB5 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				DA6C9F50588548D9AD20914C /* SQLite.swift */,
+				5BEC3E7647C84C5FA11E6E11 /* PromptDatabase.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		96CC1347A58F4F14A2D6E673 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4C95E479B3F46DF9E2A53E6 /* DateCodec.swift */,
+				15C8EBC9E4CA44638C768CFE /* TagParser.swift */,
+				17FC5154CE9749E2AA2E5D1F /* AppPaths.swift */,
+				2F0A8C51B8214C9C8D2C4F6C /* SyncStatus.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5DEE92AFC98642AABCF8948C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0AA3327E11340ECA9EDBCC4 /* RecordRowView.swift */,
+				99C2D69AAF05436EB06AFC3F /* RecordEditorView.swift */,
+				6F4962CE3A6248F396A6CB6F /* TagChipView.swift */,
+				330D6DEAEDEA422FBE644F38 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C5DBE271FA34CC4B14C149E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC05AA6340D44A3AFA6200B /* AnyMind.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63EB33665F914740B6EBE775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F10EBC94F0C648548F4F3C94 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC15F0D2DD73471DA910BABD /* AnyMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7B3FF7E09B24866A816C046 /* Build configuration list for PBXNativeTarget "PromptRecorder" */;
+			buildPhases = (
+				2F215748B89E4F49AF60617C /* Sources */,
+				98E2609C16BB47B8BE76DC67 /* Frameworks */,
+				0013F146759943DBB8B0FBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnyMind;
+			productName = AnyMind;
+			productReference = 1AC05AA6340D44A3AFA6200B /* AnyMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035B8CE0CA454BD7AE66A9FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 88CBF234304B44FBAE3F51EF /* Build configuration list for PBXProject "PromptRecorder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCAF11209E714E028D412BCF;
+			productRefGroup = 8C5DBE271FA34CC4B14C149E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC15F0D2DD73471DA910BABD /* AnyMind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0013F146759943DBB8B0FBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B7C6D5E4F30123456789AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F215748B89E4F49AF60617C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAC00EB6D3844D5AE8617AD /* PromptRecorderApp.swift in Sources */,
+				B27F8A341265459F990B9746 /* ContentView.swift in Sources */,
+				0DA40BA886CE49F3942C6A44 /* RecordStore.swift in Sources */,
+				FC7A460E96464E1281BBB572 /* Models.swift in Sources */,
+				E9530AF79AF74690874AE058 /* DateCodec.swift in Sources */,
+				4BBECF2547F6400FBFA80362 /* SyncStatus.swift in Sources */,
+				278D340BDF3D494E84DFC1F9 /* TagParser.swift in Sources */,
+				BECAFFE8CC374F219AC6B91D /* AppPaths.swift in Sources */,
+				0E9E047687B343FDB5A06EDC /* SQLite.swift in Sources */,
+				D47A0C55CF57417180A8C12E /* PromptDatabase.swift in Sources */,
+				B52927F276924238BA6DA51B /* RecordRowView.swift in Sources */,
+				3C598AD412AA4F86889E8CAB /* RecordEditorView.swift in Sources */,
+				95C9DA8D64C748B6A4F0A5B0 /* TagChipView.swift in Sources */,
+				F4173320399D4DCAB5D7D080 /* SettingsView.swift in Sources */,
+				6BDE637962814BAEB1DCB539 /* SyncClient.swift in Sources */,
+				CFB540DF096242D6B6575ADE /* SyncModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A84DD44DE90E422B81A0AEB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		931AFBBF65E1425081F07905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		46B0017E16B74CF597569D0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PromptRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anymind.PromptRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		87A5A2D5F7264A8E86895A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PromptRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anymind.PromptRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.9;
+				SWIFT_OPTIMIZATION_LEVEL = -Owholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88CBF234304B44FBAE3F51EF /* Build configuration list for PBXProject "PromptRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84DD44DE90E422B81A0AEB4 /* Debug */,
+				931AFBBF65E1425081F07905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7B3FF7E09B24866A816C046 /* Build configuration list for PBXNativeTarget "PromptRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B0017E16B74CF597569D0D /* Debug */,
+				87A5A2D5F7264A8E86895A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035B8CE0CA454BD7AE66A9FE /* Project object */;
+}
