@@ -1,0 +1,14 @@
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="primary">#2563EB</color>
+    <color name="primary_variant">#1D4ED8</color>
+    <color name="secondary">#0F172A</color>
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="tag_bg">#E8F0FE</color>
+    <color name="tag_text">#1D4ED8</color>
+    <color name="editor_bg">#F1F5F9</color>
+    <color name="sync_blue">#2563EB</color>
+    <color name="sync_gray">#9CA3AF</color>
+    <color name="sync_red">#EF4444</color>
+</resources>

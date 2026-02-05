@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="tags_collapsed_height">120dp</dimen>
+    <dimen name="tag_chip_margin">4dp</dimen>
+</resources>

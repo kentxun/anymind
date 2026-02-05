@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_settings.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/layout_activity_main.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/layout_activity_record_detail.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/layout/activity_record_detail.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/layout_item_record.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/layout/item_record.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_cloud_off.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_cloud_off.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_cloud_done.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_cloud_done.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.anymind.anymind.app-merged_res-38:/layout_activity_record_detail.xml.flat",
+        "source": "com.anymind.anymind.app-main-40:/layout/activity_record_detail.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/menu_menu_main.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/menu_menu_detail.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/menu/menu_detail.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_save.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_save.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/layout_activity_settings.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_sync.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_sync.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/layout_item_group.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/layout/item_group.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_search.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_add.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_cloud.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_cloud.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_delete.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/drawable_ic_tag.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/drawable/ic_tag.xml"
+    },
+    {
+        "merged": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-merged_res-38:/layout_bottom_sheet_date_filter.xml.flat",
+        "source": "/Users/yuxun2/.gradle/daemon/7.5.1/com.anymind.anymind.app-main-40:/layout/bottom_sheet_date_filter.xml"
+    }
+]
